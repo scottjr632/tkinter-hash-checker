@@ -78,8 +78,6 @@ if __name__ == '__main__':
     # and where it is placed
     root.geometry('%dx%d+%d+%d' % (w, h, x, y))
 
-    
-    root.iconbitmap(r'C:\Users\scott.DESKTOP-E7DFR3U\Documents\Python\images.ico')
     root.title("Hash Checker")
     main = CreateAndShowGui(root)
     root.geometry("500x200")
